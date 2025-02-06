@@ -7,3 +7,6 @@ itemEstado.addEventListener('click',(e)=>{
     containerProgreso.style.display='inline';
     containerProgreso.style.display='flex';
 });
+
+
+
