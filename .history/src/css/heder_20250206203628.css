@@ -16,6 +16,7 @@ header {
     gap: 10px;
 }
 .containerTituloLogo h1 {
+
     font-size: clamp(1rem, 6vw ,1rem );
     text-align: center;
     flex-grow: 1;

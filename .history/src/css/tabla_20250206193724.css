@@ -36,11 +36,3 @@ td:focus {
     outline: none;
 
 }
-
-
-/* menu*/
-ul{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}

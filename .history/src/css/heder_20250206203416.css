@@ -16,19 +16,19 @@ header {
     gap: 10px;
 }
 .containerTituloLogo h1 {
+
     font-size: clamp(1rem, 6vw ,1rem );
     text-align: center;
     flex-grow: 1;
 }
 
-.containerTituloLogo,.containerProgreso{
+.containerTituloLogo{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     width: 100%;
-    padding: 20px;
 }
 .imglogo {
     object-fit: cover;
@@ -60,7 +60,8 @@ a:hover{
     border-bottom:black 2px solid;
 }
 .containerProgreso{
-
+    display: inline-block;
+   
     
     display: none; 
 }
@@ -72,8 +73,8 @@ a:hover{
 }
 
  .subcontainerProgreso{
-    width: 4%;
-    height: 7vh;
+    width: 3%;
+    height: 6vh;
     background: rgb(254, 251, 251);
     padding: 10px;
     border-radius: 80px;

@@ -16,6 +16,7 @@ header {
     gap: 10px;
 }
 .containerTituloLogo h1 {
+
     font-size: clamp(1rem, 6vw ,1rem );
     text-align: center;
     flex-grow: 1;
@@ -74,6 +75,7 @@ a:hover{
  .subcontainerProgreso{
     width: 4%;
     height: 7vh;
+    gap: 20px;
     background: rgb(254, 251, 251);
     padding: 10px;
     border-radius: 80px;

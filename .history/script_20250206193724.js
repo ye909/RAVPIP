@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (enlaceEstado) {
         enlaceEstado.addEventListener('click', function (event) {
             event.preventDefault();
-            // alert(`Estado actual:\nHistorial: ${porcentajes[0]}%\nReparado: ${porcentajes[1]}%\nNuevo: ${porcentajes[2]}%\nDisponible: ${porcentajes[3]}%\nStock: ${porcentajes[4]}%`);
+            alert(`Estado actual:\nHistorial: ${porcentajes[0]}%\nReparado: ${porcentajes[1]}%\nNuevo: ${porcentajes[2]}%\nDisponible: ${porcentajes[3]}%\nStock: ${porcentajes[4]}%`);
         });
     }
 

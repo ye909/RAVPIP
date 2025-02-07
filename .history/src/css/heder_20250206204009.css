@@ -67,7 +67,7 @@ a:hover{
 
  .containerProgreso p {
     text-align: center;
-    font-size: clamp(0.7rem, 7vw ,0.7rem );
+  
     font-weight: bolder;
 }
 
