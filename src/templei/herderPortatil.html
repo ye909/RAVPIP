@@ -1,44 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/heder.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/heder.css">
+  <title>Document</title>
 </head>
+
 <body>
-   
-    <header>
-        <div class="containerTituloLogo">
-            <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
-            <h1>RAVIP</h1>
-            <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
-        </div>
-        
-        <nav>
-            <ul>
-                <li><a href="" id="itemEstado">Estado</a></li>
-                <li>Informe</li>
-                <li><a href="../templei/tablaPortatiles.html" target="_self">Asignar</a>
-                    <ul>
-                        <li></li>
-                        <li>Logistica</li>
-                        <li>Departamento tecnico</li>
-                        <li>stock</li>
-                    </ul>
-                </li>
-             
-            </ul>
-        </nav>
-    </header>
-   
-    <div class="containerProgreso">
-        <div class="subcontainerProgreso"><p><span class="tituloProceso">Historial</span><br> <span id="historial">0</span></p></div>
-        <div class="subcontainerProgreso"><p><span class="tituloProceso">Reparado</span><br> <span id="reparado">0</span></p></div>
-        <div class="subcontainerProgreso"><p><span class="tituloProceso">Nuevo</span><br> <span id="nuevo">0</span></p></div>
-        <div class="subcontainerProgreso"><p><span class="tituloProceso">Disponible</span><br> <span id="disponible">0</span></p></div>
-        <div class="subcontainerProgreso"><p><span class="tituloProceso">Stock</span><br> <span id="stock">100</span></p></div>
+
+  <header>
+    <div class="containerTituloLogo">
+      <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
+      <h1>RAVIP</h1>
+      <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
     </div>
-<script src="../js/heder.js"></script>
+
+    <nav>
+      <ul>
+        <li><a href="" id="itemEstado">Estado</a></li>
+        <li>Informe</li>
+        <li><a href="../templei/tablaPortatiles.html" target="_self">Asignar</a> </li>
+        <li>Soporte</li>
+        <li>Servicios</li>
+        <li>Logistica</li>
+        <li>Departamento tecnico</li>
+        <li>stock</li>
+
+
+
+      </ul>
+    </nav>
+  </header>
+
+  <div class="containerProgreso">
+    <div class="subcontainerProgreso">
+      <p><span class="tituloProceso">Historial</span><br> <span id="historial">0</span></p>
+    </div>
+    <div class="subcontainerProgreso">
+      <p><span class="tituloProceso">Reparado</span><br> <span id="reparado">0</span></p>
+    </div>
+    <div class="subcontainerProgreso">
+      <p><span class="tituloProceso">Nuevo</span><br> <span id="nuevo">0</span></p>
+    </div>
+    <div class="subcontainerProgreso">
+      <p><span class="tituloProceso">Disponible</span><br> <span id="disponible">0</span></p>
+    </div>
+    <div class="subcontainerProgreso">
+      <p><span class="tituloProceso">Stock</span><br> <span id="stock">100</span></p>
+    </div>
+  </div>
+
+  <!-- Sección de tarjetas de productos -->
+  <section class="product-cards">
+    <h2>Productos Destacados</h2>
+    <div class="cards-container">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <img src="../imagenes/Generated.jfif" alt="Producto 1">
+        <h3>Computadora Gamer</h3>
+        <p>Perfecta para juegos de alta definición y tareas intensivas.</p>
+        <button>Ver más</button>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Producto 2">
+        <h3>Computadora de Oficina</h3>
+        <p>Ideal para tareas diarias, navegación y productividad.</p>
+        <button>Ver más</button>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <img src="../imagenes/portatil.jfif" alt="Producto 3">
+        <h3>Laptop Portátil</h3>
+        <p>Ligera, potente y fácil de transportar. Ideal para estudiantes y profesionales.</p>
+        <button>Ver más</button>
+      </div>
+
+      <!-- Tarjeta 4 -->
+      <!-- <div class="card"> -->
+        <img src="../appRAVIP/src/imagenes/logo2.webp" alt="Producto 4">
+        <h3>PC Todo-en-Uno</h3>
+        <p>Computadora compacta y elegante, perfecta para el hogar o la oficina.</p>
+        <button>Ver más</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de contacto -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 RAVIP | Todos los derechos reservados</p>
+      <p>Contacto: info@ravip.com</p>
+    </div>
+  </footer>
+
+
+  <script src="../js/heder.js"></script>
 </body>
+
 </html>
