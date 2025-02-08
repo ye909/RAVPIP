@@ -15,26 +15,24 @@ header {
     align-items: center;
     gap: 10px;
 }
+.containerTituloLogo h1 {
+    font-size: clamp(1rem, 6vw ,1rem );
+    text-align: center;
+    flex-grow: 1;
+}
 
-.containerTituloLogo,.containerProgreso {
+.containerTituloLogo,.containerProgreso{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     width: 100%;
+    padding: 20px;
 }
-
-.containerTituloLogo h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    text-align: center;
-    flex-grow: 1;
-}
-
 .imglogo {
     object-fit: cover;
-    width: 40px;
+    width: 70px;
     height: auto;
     flex-shrink: 0;
     border-radius: 6px;
@@ -51,45 +49,31 @@ nav ul {
 }
 
 nav ul li {
-    position: relative;
+
     padding: 5px 10px;
     cursor: pointer;
 }
-
-nav ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  list-style: none;
-    border-radius: 5px;
+a{
+    text-decoration: none;
 }
-
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    margin: 5px 0;
+a:hover{
+    border-bottom:black 2px solid;
 }
 .containerProgreso{
-display: none;
-padding: 10px 0;
-}
-   /*esto es para los circulos de cada uno de los progresos*/ 
-span{
-    display: inline-block;
-    font-size:  0.7rem;
-    flex-grow: 1;
-}
-.containerProgreso p ,.tituloProceso{
-    text-align: center;
-    font-size: 0.7rem;
+
+    
+    display: none; 
 }
 
-.subcontainerProgreso{
+ .containerProgreso p {
+    text-align: center;
+    font-size: clamp(0.7rem, 7vw ,0.7rem );
+    font-weight: bolder;
+}
+
+ .subcontainerProgreso{
     width: 4%;
-    height: 9vh;
+    height: 7vh;
     background: rgb(254, 251, 251);
     padding: 10px;
     border-radius: 80px;
@@ -97,6 +81,7 @@ span{
     border-top: 2px solid #0817f5;
     border-left: 2px solid #1bf806;
 }
+<<<<<<< HEAD
   
   /* Estilo general 
   body {
@@ -213,3 +198,6 @@ footer{
 .footer-content p {
     font-size: clamp(0.5m, 1vw, 0.6rem);
   }
+=======
+
+>>>>>>> alexcasa

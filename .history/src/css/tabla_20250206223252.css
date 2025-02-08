@@ -36,19 +36,6 @@ td:focus {
     outline: none;
 
 }
-<<<<<<< HEAD
-:is(.indentificaor,.serial,.fabricante,.almacenamiento,.procesador,
-.ram,.almacenamiento,.grafica,.pantalla,.sistema,.puertos,.precio,.stock,.imagen){
-    width: 100%;
-}
-/**/
-.containerInput,.subcontainerInput{
-   
-    display: flex;
-    gap: 20px;
-    flex-grow: 1;
-    
-=======
 
 
 /* menu*/
@@ -56,5 +43,4 @@ ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
->>>>>>> alexcasa
 }
