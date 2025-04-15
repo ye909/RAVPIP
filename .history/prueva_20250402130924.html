@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Actions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Dropdown Menu Trigger Button -->
+<button id="dropdownTrigger" class="dropdown-trigger">
+  <span class="sr-only">Open menu</span>
+  <span class="icon">More</span>
+</button>
+
+<!-- Dropdown Menu Content -->
+<div id="dropdownMenu" class="dropdown-menu">
+  <div class="dropdown-menu-content" data-align="end">
+    <div class="dropdown-menu-item">
+      <span class="icon">View details</span>
+    </div>
+    <div class="dropdown-menu-item">
+      <span class="icon">Edit</span>
+    </div>
+    <div class="dropdown-menu-separator"></div>
+    <div class="dropdown-menu-item text-red">
+      <span class="icon">Delete</span>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<style>
+
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9fafb;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-trigger .icon {
+  width: 16px;
+  height: 16px;
+  color: #6b7280;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 160px;
+}
+
+.dropdown-content .dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #374151;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content .dropdown-item:hover {
+  background-color: #f3f4f6;
+}
+
+.dropdown-content .dropdown-item .icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  color: #6b7280;
+}
+
+.dropdown-content .dropdown-separator {
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 4px 0;
+}
+
+.dropdown-content .delete {
+  color: #ef4444;
+}
+
+.dropdown-content .delete:hover {
+  background-color: #fee2e2;
+}
+
+.dropdown.open .dropdown-content {
+  display: block;
+}
+</style>
+// script.js
+document.addEventListener("DOMContentLoaded", () => {
+  const dropdownTrigger = document.querySelector(".dropdown-trigger");
+  const dropdown = document.querySelector(".dropdown");
+
+  dropdownTrigger.addEventListener("click", () => {
+    dropdown.classList.toggle("open");
+  });
+
+  // Close the dropdown if clicked outside
+  document.addEventListener("click", (event) => {
+    if (!dropdown.contains(event.target) && !dropdownTrigger.contains(event.target)) {
+      dropdown.classList.remove("open");
+    }
+  });
+});

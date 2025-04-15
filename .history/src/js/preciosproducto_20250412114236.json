@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "nombre": "Intel Core i9-13900K",
+        "precio": "1099 USD"
+    },
+    {
+        "id": 2,
+        "nombre": "AMD Ryzen 7 5800X",
+        "precio": "449 USD"
+    },
+    {
+        "id": 3,
+        "nombre": "Dell UltraSharp U2723QE",
+        "precio": "699 USD"
+    },
+    {
+        "id": 4,
+        "nombre": "LG 24MP500-B",
+        "precio": "169 USD"
+    },
+    {
+        "id": 5,
+        "nombre": "ASUS ROG Strix G15",
+        "precio": "1599 USD"
+    },
+    {
+        "id": 6,
+        "nombre": "MSI Katana GF66",
+        "precio": "1299 USD"
+    },
+    {
+        "id": 7,
+        "nombre": "Corsair Vengeance LPX 32GB",
+        "precio": "189 USD"
+    },
+    {
+        "id": 8,
+        "nombre": "Kingston Fury Beast 16GB",
+        "precio": "229 USD"
+    },
+    {
+        "id": 9,
+        "nombre": "Samsung 970 EVO Plus 1TB",
+        "precio": "199 USD"
+    },
+    {
+        "id": 10,
+        "nombre": "Seagate Barracuda 2TB",
+        "precio": "79 USD"
+    },
+    {
+        "id": 11,
+        "nombre": "NVIDIA GeForce RTX 4090",
+        "precio": "1999 USD"
+    },
+    {
+        "id": 12,
+        "nombre": "AMD Radeon RX 7900 XTX",
+        "precio": "1499 USD"
+    },
+    {
+        "id": 13,
+        "nombre": "Cooler Master Hyper 212",
+        "precio": "49 USD"
+    },
+    {
+        "id": 14,
+        "nombre": "NZXT Kraken X63",
+        "precio": "149 USD"
+    },
+    {
+        "id": 15,
+        "nombre": "EVGA SuperNOVA 850 G6",
+        "precio": "159 USD"
+    },
+    {
+        "id": 16,
+        "nombre": "Corsair RM750x",
+        "precio": "129 USD"
+    },
+    {
+        "id": 17,
+        "nombre": "ASUS TUF Gaming B660M-PLUS",
+        "precio": "159 USD"
+    },
+    {
+        "id": 18,
+        "nombre": "MSI MAG B550 TOMAHAWK",
+        "precio": "139 USD"
+    },
+    {
+        "id": 19,
+        "nombre": "Logitech MX Keys",
+        "precio": "99 USD"
+    },
+    {
+        "id": 20,
+        "nombre": "Razer DeathAdder V2",
+        "precio": "79 USD"
+    },
+    {
+        "id": 21,
+        "nombre": "Philips 276E8VJSB",
+        "precio": "299 USD"
+    },
+    {
+        "id": 22,
+        "nombre": "BenQ ZOWIE XL2546",
+        "precio": "399 USD"
+    },
+    {
+        "id": 23,
+        "nombre": "Lenovo ThinkPad X1 Carbon",
+        "precio": "1599 USD"
+    },
+    {
+        "id": 24,
+        "nombre": "HP Pavilion 15",
+        "precio": "899 USD"
+    },
+    {
+        "id": 25,
+        "nombre": "Crucial P5 Plus 2TB",
+        "precio": "299 USD"
+    },
+    {
+        "id": 26,
+        "nombre": "Western Digital Black SN850X",
+        "precio": "249 USD"
+    },
+    {
+        "id": 27,
+        "nombre": "Noctua NH-U12S",
+        "precio": "69 USD"
+    },
+    {
+        "id": 28,
+        "nombre": "Deepcool Gammaxx 400",
+        "precio": "39 USD"
+    },
+    {
+        "id": 29,
+        "nombre": "Seasonic Focus GX-650",
+        "precio": "109 USD"
+    },
+    {
+        "id": 30,
+        "nombre": "Thermaltake Toughpower GF1 750W",
+        "precio": "129 USD"
+    },
+    {
+        "id": 31,
+        "nombre": "Gigabyte Z690 AORUS PRO",
+        "precio": "249 USD"
+    },
+    {
+        "id": 32,
+        "nombre": "ASRock X570 Taichi",
+        "precio": "299 USD"
+    },
+    {
+        "id": 33,
+        "nombre": "SteelSeries Apex Pro",
+        "precio": "179 USD"
+    },
+    {
+        "id": 34,
+        "nombre": "Corsair K95 RGB Platinum XT",
+        "precio": "179 USD"
+    },
+    {
+        "id": 35,
+        "nombre": "Apple MacBook Pro 16",
+        "precio": "2399 USD"
+    },
+    {
+        "id": 36,
+        "nombre": "Microsoft Surface Laptop 5",
+        "precio": "1199 USD"
+    },
+    {
+        "id": 37,
+        "nombre": "Samsung Odyssey Neo G9",
+        "precio": "2499 USD"
+    },
+    {
+        "id": 38,
+        "nombre": "Acer Predator XB273K",
+        "precio": "1299 USD"
+    },
+    {
+        "id": 39,
+        "nombre": "ADATA XPG Spectrix D80 32GB",
+        "precio": "199 USD"
+    },
+    {
+        "id": 40,
+        "nombre": "G.Skill Trident Z5 RGB 32GB",
+        "precio": "299 USD"
+    },
+    {
+        "id": 41,
+        "nombre": "Toshiba X300 4TB",
+        "precio": "129 USD"
+    },
+    {
+        "id": 42,
+        "nombre": "WD Blue 3D NAND 1TB",
+        "precio": "109 USD"
+    },
+    {
+        "id": 43,
+        "nombre": "Be Quiet! Dark Rock Pro 4",
+        "precio": "89 USD"
+    },
+    {
+        "id": 44,
+        "nombre": "Antec NX410 Mid Tower",
+        "precio": "79 USD"
+    },
+    {
+        "id": 45,
+        "nombre": "Corsair Carbide 275R",
+        "precio": "69 USD"
+    },
+    {
+        "id": 46,
+        "nombre": "Logitech MX Master 3",
+        "precio": "79 USD"
+    },
+    {
+        "id": 47,
+        "nombre": "Razer Blade 15",
+        "precio": "1899 USD"
+    },
+    {
+        "id": 48,
+        "nombre": "Alienware m17 R5",
+        "precio": "2999 USD"
+    },
+    {
+        "id": 49,
+        "nombre": "AOC CQ32G1",
+        "precio": "399 USD"
+    },
+    {
+        "id": 50,
+        "nombre": "Asus Zenbook 14 OLED",
+        "precio": "1499 USD"
+    }
+]

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventario Ravip</title>
+  <link rel="stylesheet" href="../css/bodegas.css" />
+</head>
+
+<body>
+
+  <div class="containerTituloLogo">
+    <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
+    <h1>Inventario de Computadores <br> Ravip</h1>
+    <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
+  </div>
+
+  <div class="container">
+
+
+
+    <div class="containerform-agregar">
+
+    <di class="containerOpciones">
+      <div>  <select id="bodega">
+        <option value="">Selecciona una bodega:</option>
+        <option value="bodega1">Bodega Norte</option>
+        <option value="bodega2">Bodega Centro</option>
+        <option value="bodega3">Bodega Sur</option>
+      </select>
+     
+      </div>
+      <div><select id="estado">
+        <option value="Operativo">Operativo</option>
+        <option value="En reparación">En reparación</option>
+        <option value="Baja">Baja</option>
+      </select></div>
+    </di>
+      <h2>.............</h2>
+
+
+
+      <form id="form-agregar" class="form-agregar">
+        <div><input type="text" id="serial" placeholder="Serial" required /></div>
+        <div> <input type="text" id="marca" placeholder="Marca" required /></div>
+        <div><input type="text" id="modelo" placeholder="Modelo" required /></div>
+        <div><input type="text" id="serial" placeholder="Serial" required /> </div>
+        <div><input type="text" id="marca" placeholder="Cantidad" required /></div>
+        <div><input type="text" id="modelo" placeholder="Modelo" required /></div>
+        <div><input type="text" id="serial" placeholder="Serial" required /> </div>
+        <div><input type="text" id="marca" placeholder="Marca" required /></div>
+
+        <!--  -->
+       <div class="btnacciones">
+        <div> <button type="submit">Agregar</button></div>
+        <div> <button type="">Editar</button></div>
+        <div> <button type="">Borrar</button></div>
+        <div> <button type="">Mostrar</button></div>
+       </div>
+      </form>
+    </div>
+    <h2>Lista de Equipos</h2>
+    <table id="tabla-inventario">
+      <thead>
+        <tr>
+          <th>Serial</th>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  </div>
+
+  <script src="../js/bodegas.js"></script>
+</body>
+
+</html>

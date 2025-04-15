@@ -1,0 +1,514 @@
+[
+    {
+      "id": 1,
+      "nombre": "Intel Core i9-13900K",
+      "tipo": "CPU",
+      "precio": 599.99,
+      "marca": "Intel",
+      "modelo": "Core i9-13900K",
+      "nucleos": 24,
+      "hilos": 32,
+      "frecuencia_base": "3.0 GHz",
+      "frecuencia_turbo": "5.8 GHz"
+    },
+    {
+      "id": 2,
+      "nombre": "AMD Ryzen 7 5800X",
+      "tipo": "CPU",
+      "precio": 349.99,
+      "marca": "AMD",
+      "modelo": "Ryzen 7 5800X",
+      "nucleos": 8,
+      "hilos": 16,
+      "frecuencia_base": "3.8 GHz",
+      "frecuencia_turbo": "4.7 GHz"
+    },
+    {
+      "id": 3,
+      "nombre": "Dell UltraSharp U2723QE",
+      "tipo": "Monitor",
+      "precio": 549.99,
+      "marca": "Dell",
+      "modelo": "U2723QE",
+      "pulgadas": 27,
+      "resolucion": "4K UHD (3840x2160)",
+      "tasa_refresco": "60Hz",
+      "tipo_pantalla": "IPS"
+    },
+    {
+      "id": 4,
+      "nombre": "LG 24MP500-B",
+      "tipo": "Monitor",
+      "precio": 179.99,
+      "marca": "LG",
+      "modelo": "24MP500-B",
+      "pulgadas": 24,
+      "resolucion": "Full HD (1920x1080)",
+      "tasa_refresco": "75Hz",
+      "tipo_pantalla": "IPS"
+    },
+    {
+      "id": 5,
+      "nombre": "ASUS ROG Strix G15",
+      "tipo": "Computadora",
+      "precio": 1299.99,
+      "marca": "ASUS",
+      "modelo": "ROG Strix G15",
+      "procesador": "Intel Core i7-12700H",
+      "memoria_ram": "16GB DDR5",
+      "almacenamiento": "512GB SSD",
+      "graficos": "NVIDIA GeForce RTX 3060"
+    },
+    {
+      "id": 6,
+      "nombre": "MSI Katana GF66",
+      "tipo": "Computadora",
+      "precio": 1099.99,
+      "marca": "MSI",
+      "modelo": "Katana GF66",
+      "procesador": "AMD Ryzen 7 6800H",
+      "memoria_ram": "16GB DDR5",
+      "almacenamiento": "1TB SSD",
+      "graficos": "NVIDIA GeForce RTX 3050"
+    },
+    {
+      "id": 7,
+      "nombre": "Corsair Vengeance LPX 32GB",
+      "tipo": "Memoria RAM",
+      "precio": 89.99,
+      "marca": "Corsair",
+      "modelo": "Vengeance LPX",
+      "capacidad": "32GB",
+      "tipo_memoria": "DDR4",
+      "frecuencia": "3200MHz"
+    },
+    {
+      "id": 8,
+      "nombre": "Kingston Fury Beast 16GB",
+      "tipo": "Memoria RAM",
+      "precio": 69.99,
+      "marca": "Kingston",
+      "modelo": "Fury Beast",
+      "capacidad": "16GB",
+      "tipo_memoria": "DDR5",
+      "frecuencia": "4800MHz"
+    },
+    {
+      "id": 9,
+      "nombre": "Samsung 970 EVO Plus 1TB",
+      "tipo": "Almacenamiento",
+      "precio": 129.99,
+      "marca": "Samsung",
+      "modelo": "970 EVO Plus",
+      "capacidad": "1TB",
+      "tipo_almacenamiento": "SSD NVMe",
+      "velocidad_lectura": "3500 MB/s",
+      "velocidad_escritura": "3300 MB/s"
+    },
+    {
+      "id": 10,
+      "nombre": "Seagate Barracuda 2TB",
+      "tipo": "Almacenamiento",
+      "precio": 59.99,
+      "marca": "Seagate",
+      "modelo": "Barracuda",
+      "capacidad": "2TB",
+      "tipo_almacenamiento": "HDD",
+      "velocidad_rotacion": "7200 RPM"
+    },
+    {
+      "id": 11,
+      "nombre": "NVIDIA GeForce RTX 4090",
+      "tipo": "Tarjeta Gráfica",
+      "precio": 1599.99,
+      "marca": "NVIDIA",
+      "modelo": "GeForce RTX 4090",
+      "memoria_grafica": "24GB GDDR6X",
+      "arquitectura": "Ada Lovelace"
+    },
+    {
+      "id": 12,
+      "nombre": "AMD Radeon RX 7900 XTX",
+      "tipo": "Tarjeta Gráfica",
+      "precio": 999.99
+      "marca": "AMD",
+      "modelo": "Radeon RX 7900 XTX",
+      "memoria_grafica": "24GB GDDR6",
+      "arquitectura": "RDNA 3"
+    },
+    {
+      "id": 13,
+      "nombre": "Cooler Master Hyper 212",
+      "tipo": "Refrigeración",
+      "marca": "Cooler Master",
+      "modelo": "Hyper 212",
+      "tipo_refrigeracion": "Aire",
+      "compatibilidad": "Intel y AMD"
+    },
+    {
+      "id": 14,
+      "nombre": "NZXT Kraken X63",
+      "tipo": "Refrigeración",
+      "marca": "NZXT",
+      "modelo": "Kraken X63",
+      "tipo_refrigeracion": "Líquida",
+      "compatibilidad": "Intel y AMD"
+    },
+    {
+      "id": 15,
+      "nombre": "EVGA SuperNOVA 850 G6",
+      "tipo": "Fuente de Poder",
+      "marca": "EVGA",
+      "modelo": "SuperNOVA 850 G6",
+      "potencia": "850W",
+      "certificacion": "80 Plus Gold"
+    },
+    {
+      "id": 16,
+      "nombre": "Corsair RM750x",
+      "tipo": "Fuente de Poder",
+      "marca": "Corsair",
+      "modelo": "RM750x",
+      "potencia": "750W",
+      "certificacion": "80 Plus Gold"
+    },
+    {
+      "id": 17,
+      "nombre": "ASUS TUF Gaming B660M-PLUS",
+      "tipo": "Placa Madre",
+      "marca": "ASUS",
+      "modelo": "TUF Gaming B660M-PLUS",
+      "socket": "LGA 1700",
+      "chipset": "Intel B660"
+    },
+    {
+      "id": 18,
+      "nombre": "MSI MAG B550 TOMAHAWK",
+      "tipo": "Placa Madre",
+      "marca": "MSI",
+      "modelo": "MAG B550 TOMAHAWK",
+      "socket": "AM4",
+      "chipset": "AMD B550"
+    },
+    {
+      "id": 19,
+      "nombre": "Logitech MX Keys",
+      "tipo": "Periférico",
+      "marca": "Logitech",
+      "modelo": "MX Keys",
+      "tipo_periferico": "Teclado",
+      "conectividad": "Inalámbrico"
+    },
+    {
+      "id": 20,
+      "nombre": "Razer DeathAdder V2",
+      "tipo": "Periférico",
+      "marca": "Razer",
+      "modelo": "DeathAdder V2",
+      "tipo_periferico": "Mouse",
+      "conectividad": "Inalámbrico"
+    },
+    {
+      "id": 21,
+      "nombre": "Philips 276E8VJSB",
+      "tipo": "Monitor",
+      "marca": "Philips",
+      "modelo": "276E8VJSB",
+      "pulgadas": 27,
+      "resolucion": "4K UHD (3840x2160)",
+      "tasa_refresco": "60Hz",
+      "tipo_pantalla": "IPS"
+    },
+    {
+      "id": 22,
+      "nombre": "BenQ ZOWIE XL2546",
+      "tipo": "Monitor",
+      "marca": "BenQ",
+      "modelo": "ZOWIE XL2546",
+      "pulgadas": 24.5,
+      "resolucion": "Full HD (1920x1080)",
+      "tasa_refresco": "240Hz",
+      "tipo_pantalla": "TN"
+    },
+    {
+      "id": 23,
+      "nombre": "Lenovo ThinkPad X1 Carbon",
+      "tipo": "Computadora",
+      "marca": "Lenovo",
+      "modelo": "ThinkPad X1 Carbon",
+      "procesador": "Intel Core i7-1260P",
+      "memoria_ram": "16GB LPDDR5",
+      "almacenamiento": "1TB SSD",
+      "graficos": "Intel Iris Xe Graphics"
+    },
+    {
+      "id": 24,
+      "nombre": "HP Pavilion 15",
+      "tipo": "Computadora",
+      "marca": "HP",
+      "modelo": "Pavilion 15",
+      "procesador": "AMD Ryzen 5 5600H",
+      "memoria_ram": "8GB DDR4",
+      "almacenamiento": "512GB SSD",
+      "graficos": "NVIDIA GeForce GTX 1650"
+    },
+    {
+      "id": 25,
+      "nombre": "Crucial P5 Plus 2TB",
+      "tipo": "Almacenamiento",
+      "marca": "Crucial",
+      "modelo": "P5 Plus",
+      "capacidad": "2TB",
+      "tipo_almacenamiento": "SSD NVMe",
+      "velocidad_lectura": "6600 MB/s",
+      "velocidad_escritura": "5000 MB/s"
+    },
+    {
+      "id": 26,
+      "nombre": "Western Digital Black SN850X",
+      "tipo": "Almacenamiento",
+      "marca": "Western Digital",
+      "modelo": "Black SN850X",
+      "capacidad": "1TB",
+      "tipo_almacenamiento": "SSD NVMe",
+      "velocidad_lectura": "7300 MB/s",
+      "velocidad_escritura": "6600 MB/s"
+    },
+    {
+      "id": 27,
+      "nombre": "Noctua NH-U12S",
+      "tipo": "Refrigeración",
+      "marca": "Noctua",
+      "modelo": "NH-U12S",
+      "tipo_refrigeracion": "Aire",
+      "compatibilidad": "Intel y AMD"
+    },
+    {
+      "id": 28,
+      "nombre": "Deepcool Gammaxx 400",
+      "tipo": "Refrigeración",
+      "marca": "Deepcool",
+      "modelo": "Gammaxx 400",
+      "tipo_refrigeracion": "Aire",
+      "compatibilidad": "Intel y AMD"
+    },
+    {
+      "id": 29,
+      "nombre": "Seasonic Focus GX-650",
+      "tipo": "Fuente de Poder",
+      "marca": "Seasonic",
+      "modelo": "Focus GX-650",
+      "potencia": "650W",
+      "certificacion": "80 Plus Gold"
+    },
+    {
+      "id": 30,
+      "nombre": "Thermaltake Toughpower GF1 750W",
+      "tipo": "Fuente de Poder",
+      "marca": "Thermaltake",
+      "modelo": "Toughpower GF1",
+      "potencia": "750W",
+      "certificacion": "80 Plus Gold"
+    },
+    {
+      "id": 31,
+      "nombre": "Gigabyte Z690 AORUS PRO",
+      "tipo": "Placa Madre",
+      "marca": "Gigabyte",
+      "modelo": "Z690 AORUS PRO",
+      "socket": "LGA 1700",
+      "chipset": "Intel Z690"
+    },
+    {
+      "id": 32,
+      "nombre": "ASRock X570 Taichi",
+      "tipo": "Placa Madre",
+      "marca": "ASRock",
+      "modelo": "X570 Taichi",
+      "socket": "AM4",
+      "chipset": "AMD X570"
+    },
+    {
+      "id": 33,
+      "nombre": "SteelSeries Apex Pro",
+      "tipo": "Periférico",
+      "marca": "SteelSeries",
+      "modelo": "Apex Pro",
+      "tipo_periferico": "Teclado",
+      "conectividad": "Inalámbrico"
+    },
+    {
+      "id": 34,
+      "nombre": "Corsair K95 RGB Platinum XT",
+      "tipo": "Periférico",
+      "marca": "Corsair",
+      "modelo": "K95 RGB Platinum XT",
+      "tipo_periferico": "Teclado",
+      "conectividad": "Alámbrico"
+    },
+    {
+      "id": 35,
+      "nombre": "Apple MacBook Pro 16",
+      "tipo": "Computadora",
+      "marca": "Apple",
+      "modelo": "MacBook Pro 16",
+      "procesador": "Apple M1 Max",
+      "memoria_ram": "32GB",
+      "almacenamiento": "1TB SSD",
+      "graficos": "GPU integrada"
+    },
+    {
+      "id": 36,
+      "nombre": "Microsoft Surface Laptop 5",
+      "tipo": "Computadora",
+      "marca": "Microsoft",
+      "modelo": "Surface Laptop 5",
+      "procesador": "Intel Core i5-1235U",
+      "memoria_ram": "8GB",
+      "almacenamiento": "256GB SSD",
+      "graficos": "Intel Iris Xe Graphics"
+    },
+    {
+      "id": 37,
+      "nombre": "Samsung Odyssey Neo G9",
+      "tipo": "Monitor",
+      "marca": "Samsung",
+      "modelo": "Odyssey Neo G9",
+      "pulgadas": 49,
+      "resolucion": "Dual QHD (5120x1440)",
+      "tasa_refresco": "240Hz",
+      "tipo_pantalla": "VA"
+    },
+    {
+      "id": 38,
+      "nombre": "Acer Predator XB273K",
+      "tipo": "Monitor",
+      "marca": "Acer",
+      "modelo": "Predator XB273K",
+      "pulgadas": 27,
+      "resolucion": "4K UHD (3840x2160)",
+      "tasa_refresco": "144Hz",
+      "tipo_pantalla": "IPS"
+    },
+    {
+      "id": 39,
+      "nombre": "ADATA XPG Spectrix D80 32GB",
+      "tipo": "Memoria RAM",
+      "marca": "ADATA",
+      "modelo": "XPG Spectrix D80",
+      "capacidad": "32GB",
+      "tipo_memoria": "DDR4",
+      "frecuencia": "3200MHz"
+    },
+    {
+      "id": 40,
+      "nombre": "G.Skill Trident Z5 RGB 32GB",
+      "tipo": "Memoria RAM",
+      "marca": "G.Skill",
+      "modelo": "Trident Z5 RGB",
+      "capacidad": "32GB",
+      "tipo_memoria": "DDR5",
+      "frecuencia": "6000MHz"
+    },
+    {
+      "id": 41,
+      "nombre": "Toshiba X300 4TB",
+      "tipo": "Almacenamiento",
+      "marca": "Toshiba",
+      "modelo": "X300",
+      "capacidad": "4TB",
+      "tipo_almacenamiento": "HDD",
+      "velocidad_rotacion": "7200 RPM"
+    },
+    {
+      "id": 42,
+      "nombre": "WD Blue 3D NAND 1TB",
+      "tipo": "Almacenamiento",
+      "marca": "Western Digital",
+      "modelo": "Blue 3D NAND",
+      "capacidad": "1TB",
+      "tipo_almacenamiento": "SSD SATA",
+      "velocidad_lectura": "560 MB/s",
+      "velocidad_escritura": "530 MB/s"
+    },
+    {
+      "id": 43,
+      "nombre": "Be Quiet! Dark Rock Pro 4",
+      "tipo": "Refrigeración",
+      "marca": "Be Quiet!",
+      "modelo": "Dark Rock Pro 4",
+      "tipo_refrigeracion": "Aire",
+      "compatibilidad": "Intel y AMD"
+    },
+    {
+      "id": 44,
+      "nombre": "Antec NX410 Mid Tower",
+      "tipo": "Gabinete",
+      "marca": "Antec",
+      "modelo": "NX410",
+      "factor_forma": "Mid Tower",
+      "soporte_motherboard": "ATX, Micro ATX, Mini ITX"
+    },
+    {
+      "id": 45,
+      "nombre": "Corsair Carbide 275R",
+      "tipo": "Gabinete",
+      "marca": "Corsair",
+      "modelo": "Carbide 275R",
+      "factor_forma": "Mid Tower",
+      "soporte_motherboard": "ATX, Micro ATX, Mini ITX"
+    },
+    {
+      "id": 46,
+      "nombre": "Logitech MX Master 3",
+      "tipo": "Periférico",
+      "marca": "Logitech",
+      "modelo": "MX Master 3",
+      "tipo_periferico": "Mouse",
+      "conectividad": "Inalámbrico"
+    },
+    {
+      "id": 47,
+      "nombre": "Razer Blade 15",
+      "tipo": "Computadora",
+      "marca": "Razer",
+      "modelo": "Blade 15",
+      "procesador": "Intel Core i7-12800H",
+      "memoria_ram": "16GB DDR5",
+      "almacenamiento": "1TB SSD",
+      "graficos": "NVIDIA GeForce RTX 3070"
+    },
+    {
+      "id": 48,
+      "nombre": "Alienware m17 R5",
+      "tipo": "Computadora",
+      "marca": "Alienware",
+      "modelo": "m17 R5",
+      "procesador": "AMD Ryzen 9 6900HX",
+      "memoria_ram": "32GB DDR5",
+      "almacenamiento": "2TB SSD",
+      "graficos": "NVIDIA GeForce RTX 3080"
+    },
+    {
+      "id": 49,
+      "nombre": "AOC CQ32G1",
+      "tipo": "Monitor",
+      "marca": "AOC",
+      "modelo": "CQ32G1",
+      "pulgadas": 32,
+      "resolucion": "Quad HD (2560x1440)",
+      "tasa_refresco": "144Hz",
+      "tipo_pantalla": "VA"
+    },
+    {
+      "id": 50,
+      "nombre": "Asus Zenbook 14 OLED",
+      "tipo": "Computadora",
+      "marca": "Asus",
+      "modelo": "Zenbook 14 OLED",
+      "procesador": "AMD Ryzen 7 5800H",
+      "memoria_ram": "16GB LPDDR5",
+      "almacenamiento": "1TB SSD",
+      "graficos": "NVIDIA GeForce GTX 1650"
+    }
+  ]

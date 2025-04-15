@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información de Equipos Reparados</title>
+  <link rel="stylesheet" href="../css/reparicion.css">
+</head>
+<body>
+  <header>
+    <h1>Información de Equipos Reparados</h1>
+    <nav>
+      <ul>
+        <li><a href="#" id="btnView">Ver Información</a></li>
+        <li><a href="#" id="btnSuggestion">Enviar Sugerencia</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="infoContainer">
+      <!-- Aquí se mostrará la información de los equipos reparados -->
+    </div>
+    <div id="suggestionForm" style="display: none;">
+      <h2>Envía tu Sugerencia</h2>
+      <form id="suggestionForm">
+        <textarea id="suggestionText" placeholder="Escribe tu sugerencia aquí"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </main>
+  <script src="../js/reparicion.js"></script>
+</body>
+</html>

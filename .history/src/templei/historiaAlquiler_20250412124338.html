@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumen de Alquiler</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: black;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .contenedor {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+.containerClose{
+    display: flex;
+    justify-content: space-between;
+    /* visibility: hidden; */
+}
+    h2 {
+      margin-top: 0;
+      color: #026773;
+    }
+
+    .info-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background-color: #eef6f7;
+      padding: 1rem;
+      border-left: 5px solid #02a9a4;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin: 0.3rem 0;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .card p {
+      margin: 0;
+      font-weight: bold;
+      color: #444;
+    }
+
+  
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Resumen de Información del Alquiler</h1>
+  </header>
+
+  <div class="contenedor">
+   <div class="containerClose">
+    <div><h2>Detalles del Equipo</h2></div>
+    <div>❌</div>
+   </div>
+    <div class="info-box">
+      <div class="card">
+        <h3>ID del Producto</h3>
+        <p>1054</p>
+      </div>
+      <div class="card">
+        <h3>Tipo</h3>
+        <p>Computadora</p>
+      </div>
+      <div class="card">
+        <h3>Cantidad</h3>
+        <p>2</p>
+      </div>
+      <div class="card">
+        <h3>Marca</h3>
+        <p>HP</p>
+      </div>
+      <div class="card">
+        <h3>Modelo</h3>
+        <p>Pavilion x360</p>
+      </div>
+      <div class="card">
+        <h3>Fecha</h3>
+        <p>2025-04-12</p>
+      </div>
+      <div class="card">
+        <h3>Precio</h3>
+        <p>$150.000</p>
+      </div>
+      <div class="card">
+        <h3>Días de Alquiler</h3>
+        <p>3</p>
+      </div>
+      <div class="card">
+        <h3>Total</h3>
+        <p>$450.000</p>
+      </div>
+      <div class="card" style="grid-column: 1 / -1;">
+        <h3>Detalles Adicionales</h3>
+        <p>El equipo se entrega con maletín y cargador.</p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

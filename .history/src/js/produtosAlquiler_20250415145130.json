@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "nombre": "Intel Core i9-13900K",
+      "tipo": "CPU",
+      "precio": 599.99,
+      "marca": "Intel",
+      "modelo": "Core i9-13900K",
+      "nucleos": 24,
+      "hilos": 32,
+      "frecuencia_base": "3.0 GHz",
+      "frecuencia_turbo": "5.8 GHz"
+    }
+    
+  ]

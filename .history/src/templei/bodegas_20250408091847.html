@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventario Ravip</title>
+  <link rel="stylesheet" href="../css/bodegas.css" />
+</head>
+<body>
+  
+    <div class="containerTituloLogo">
+      <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
+      <h1>Inventario de Computadores <br> Ravip</h1>
+      <div><img src="../imagenes/logo2.webp" alt="Logo" class="imglogo"></div>
+  </div>
+    
+  <div class="container">
+    <label for="bodega">Selecciona una bodega:</label>
+    <select id="bodega">
+      <option value="bodega1">Bodega Norte</option>
+      <option value="bodega2">Bodega Centro</option>
+      <option value="bodega3">Bodega Sur</option>
+    </select>
+
+   
+    <h2>Agregar Computador</h2>
+    <div class="containerform-agregar">
+   
+  
+
+    <form id="form-agregar" class="form-agregar">
+      <div></div>
+      <div></div>  <div></div>  <div></div>  <div></div>
+      <input type="text" id="serial" placeholder="Serial" required />
+      <input type="text" id="marca" placeholder="Marca" required />
+      <input type="text" id="modelo" placeholder="Modelo" required /> <input type="text" id="serial" placeholder="Serial" required />
+      <input type="text" id="marca" placeholder="Marca" required />
+      <input type="text" id="modelo" placeholder="Modelo" required />
+      <input type="text" id="serial" placeholder="Serial" required />
+      <input type="text" id="marca" placeholder="Marca" required />
+      <input type="text" id="modelo" placeholder="Modelo" required />
+      <input type="text" id="serial" placeholder="Serial" required />
+      <input type="text" id="marca" placeholder="Marca" required />
+      <input type="text" id="modelo" placeholder="Modelo" required />
+     <br><br>
+     <div> <button type="submit">Agregar</button> <button>aaas</button></div>
+    </form>
+  </div>
+    <h2>Lista de Equipos</h2>
+    <table id="tabla-inventario">
+      <thead>
+        <tr>
+          <th>Serial</th>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  </div>
+
+  <script src="../js/bodegas.js"></script>
+</body>
+</html>
