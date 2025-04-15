@@ -41,12 +41,39 @@ async function a() {
                                 <option value="${item.hilos}">${item.hilos}</option>
                                     <option value="${item.frecuencia}">${item.frecuencia}</option>
                                      <option value="${item.cantidad}">${item.cantidad}</option>
-                                   <option value="${item.tipo_almacenamiento}">${item.tipo_almacenamiento}</option>
-                                   <option value="${ item.velocidad_lectura}">${item.velocidad_lectura}</option>
-                                <option value="${ item.velocidad_escritura}">${item.velocidad_escritura}</option>
+                                   <option value="${
+                                     item.tipo_almacenamiento}">${item.tipo_almacenamiento}</option>
+                                                    <option value="${
+                                                      item.velocidad_lectura
+                                                    }">${item.velocidad_lectura}</option>
+                                                    <option value="${
+                                                      item.velocidad_escritura
+                                                    }">${item.velocidad_escritura}</option>
                                 <option value="${item.frecuencia_base}">${item.frecuencia_base}</option>
                             </select>
-                             
+                             <label for="quantity">Cantidad:</label>
+                            <input type="number" id="Cantidad" />
+                            <div>
+                            <label for="marca">Marca:</label>
+                            <input type="text" id="marca">
+
+                            <label for="modelo">Modelo:</label>
+                            <input type="text" id="modelo">
+                            <label for="fecha">fecha:</label>
+                            <input type="date" id="fecha">
+               
+               
+
+                            <div>
+                                <label for="detalles">Detalles Adicionales:</label>
+                                <textarea name="" id="detalles" cols="70" rows="10"></textarea>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <p id="mensajeFormulario"></p>
+                    <button type="submit">Enviar</button>
                         
 `;
 

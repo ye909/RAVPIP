@@ -232,8 +232,17 @@ button:hover {
 /* 
 codigo de los radios */
 
+.form-group-radio {
+  display: flex;
+ 
+  align-items: center; /* Centrado horizontal */
+  gap: 1rem;
+  padding: 1rem;
+}
+
 .radio-row {
   display: flex;
+  gap: 1.5rem;
   justify-content: center; /* Centra los radios en cada fila */
   flex-wrap: wrap;
 }
@@ -241,7 +250,7 @@ codigo de los radios */
 
 
 input[type="radio"] {
-width: 20%;
+
   cursor: pointer ;
   accent-color: #007bff; /* Personaliza el color del radio */
   transform: scale(1.7); /* Aumenta el tamaño */
