@@ -19,10 +19,7 @@ main {
   background: #efebeb;
  
 }
-img{
-object-fit: cover;
-width:min(50%, 50%);
-}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -108,7 +105,6 @@ width:min(50%, 50%);
     font-size: 20px;
     cursor: pointer;
   }
-
   footer {
     width: 100%;
     display: grid;

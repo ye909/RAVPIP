@@ -6,7 +6,7 @@
    "image": "https://via.placeholder.com/200x150?text=CPU+Intel+i5" },
   { "id": 2, "name": "CPU AMD Ryzen 5", "price": 950000, "image": "../imagenes/IMAGEN CPU AMD Ryzen 5.webp" },
   { "id": 3, "name": "Mouse Logitech", "price": 70000, "image": "../imagenes/MAUSE.webp" },
-  { "id": 4, "name": "Teclado Mecánico", "price": 120000, "image": "../imagenes/TECLADOUSB.webp" },
+  { "id": 4, "name": "Teclado Mecánico", "price": 120000, "image": "https://via.placeholder.com/200x150?text=Teclado" },
   { "id": 5, "name": "Monitor 24\"", "price": 600000, "image": "https://via.placeholder.com/200x150?text=Monitor" },
   { "id": 6, "name": "Disco SSD 480GB", "price": 220000, "image": "https://via.placeholder.com/200x150?text=SSD" },
   { "id": 7, "name": "Disco HDD 1TB", "price": 180000, "image": "https://via.placeholder.com/200x150?text=HDD" },

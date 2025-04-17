@@ -21,7 +21,7 @@ main {
 }
 img{
 object-fit: cover;
-width:min(50%, 50%);
+width:min(10%, 10%);
 }
 .product-list {
   display: flex;
