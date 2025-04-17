@@ -13,16 +13,6 @@ function mostrarInfoBodega() {
   containertabla.style.visibility="visible"
 }
 
- const opcionbodega =document.getElementById("estado").addEventListener("change", mostrarReparicion ) 
-    
-function mostrarReparicion() {
- 
-  if (opcionbodega  ==  "En reparación") {
-    alert("ya")
-  }
-
-
-} 
 
 const inventarios = {
     bodega1: [],
@@ -69,6 +59,10 @@ const inventarios = {
   // Mostrar al inicio
   renderTabla();
  
+
+
+
+  
 //   <form id="form-agregar" class="form-agregar">
 //   <!-- <div><label for="">
 //     <input type="number"placeholder="Codigo">

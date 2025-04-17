@@ -49,8 +49,8 @@ h1{
     width: 100%;
     max-width: 300px;
   }
-
-  .close{
+ 
+  .close,select{
     cursor: pointer;
     padding: 10px;
     

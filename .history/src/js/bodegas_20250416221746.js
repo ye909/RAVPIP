@@ -13,16 +13,6 @@ function mostrarInfoBodega() {
   containertabla.style.visibility="visible"
 }
 
- const opcionbodega =document.getElementById("estado").addEventListener("change", mostrarReparicion ) 
-    
-function mostrarReparicion() {
- 
-  if (opcionbodega  ==  "En reparación") {
-    alert("ya")
-  }
-
-
-} 
 
 const inventarios = {
     bodega1: [],
@@ -69,6 +59,20 @@ const inventarios = {
   // Mostrar al inicio
   renderTabla();
  
+  const selectEstado = document.getElementById("estado");
+
+  // Agregar un listener para detectar cambios en el select
+  selectEstado.addEventListener("change", function () {
+      // Verificar si la opción seleccionada es "En reparación"
+      if (selectEstado.value === "En reparación") {
+          mostrarReparicion();
+      }
+  });
+
+  // Función que se ejecuta cuando se selecciona "En reparación"
+  function mostrarReparicion() {
+    alert("ya")
+  } 
 //   <form id="form-agregar" class="form-agregar">
 //   <!-- <div><label for="">
 //     <input type="number"placeholder="Codigo">

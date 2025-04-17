@@ -24,9 +24,7 @@ h1{
 }
 .containertabla{
   padding: 20px;
-  visibility: hidden;
 }
-
 
    h2 {
     color: #1a237e;
@@ -49,7 +47,7 @@ h1{
     width: 100%;
     max-width: 300px;
   }
-
+ 
   .close{
     cursor: pointer;
     padding: 10px;

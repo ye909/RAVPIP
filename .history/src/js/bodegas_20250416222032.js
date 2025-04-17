@@ -13,15 +13,12 @@ function mostrarInfoBodega() {
   containertabla.style.visibility="visible"
 }
 
- const opcionbodega =document.getElementById("estado").addEventListener("change", mostrarReparicion ) 
+const selectEstado = document.getElementById("estado").addEventListener("change", mostrarReparicion ) 
     
 function mostrarReparicion() {
- 
-  if (opcionbodega  ==  "En reparación") {
-    alert("ya")
+  alert("ya")
+  if (selectEstado.value === "En reparación") {
   }
-
-
 } 
 
 const inventarios = {

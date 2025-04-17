@@ -17,10 +17,10 @@ function mostrarInfoBodega() {
     
 function mostrarReparicion() {
  
-  if (opcionbodega  ==  "En reparación") {
+  if (opcionbodega !=  "En reparación") {
     alert("ya")
   }
-
+  alert("no")
 
 } 
 

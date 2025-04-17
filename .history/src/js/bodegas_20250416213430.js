@@ -13,16 +13,6 @@ function mostrarInfoBodega() {
   containertabla.style.visibility="visible"
 }
 
- const opcionbodega =document.getElementById("estado").addEventListener("change", mostrarReparicion ) 
-    
-function mostrarReparicion() {
- 
-  if (opcionbodega  ==  "En reparación") {
-    alert("ya")
-  }
-
-
-} 
 
 const inventarios = {
     bodega1: [],
@@ -69,35 +59,3 @@ const inventarios = {
   // Mostrar al inicio
   renderTabla();
  
-//   <form id="form-agregar" class="form-agregar">
-//   <!-- <div><label for="">
-//     <input type="number"placeholder="Codigo">
-//   </label></div> -->
-//   <div><label for="serial">Ingrese el seria
-//       <input type="text" id="serial" placeholder="Serial" required />
-//     </label></div>
-//   <div><label for="marca">Ingrese tipo de marca
-//       <input type="text" id="marca" placeholder="Marca" required />
-//     </label>
-//   </div>
-//   <div><label for="modelo">Ingrese el modelo
-//       <input type="text" id="modelo" placeholder="Modelo" required />
-//     </label></div>
-//   <div>
-//     <label for="cantidad">Ingrese la cantidad
-//       <input type="number" id="cantidad" placeholder="Cantidad" required />
-//     </label>
-//   </div>
-//   <div><input type="number" id="serial" placeholder="Stock" required /> </div>
-//   <div><input type="number" id="modelo" placeholder="Precio" required /></div>
-//   <div><input type="text" id="serial" placeholder="" required /> </div>
-//   <div><input type="date" id="marca" placeholder="facha" required /></div>
-
-//   <!--  -->
-//   <div class="btnacciones">
-//     <div> <button type="submit">Agregar</button></div>
-//     <div> <button type="">Editar</button></div>
-//     <div> <button type="reset">Borrar</button></div>
-//     <div> <button type="">Mostrar</button></div>
-//   </div>
-// </form>
